@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LocalIDE</title>
+  </head>
+  <body>
+    <form action="http://localhost:3000/output" method="post">
+      <div style="float: left;">
+      <h4>Select Language: <select style="background-color:#202020;color: white;"  name="lang">
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+      </select></h4>
+
+      <textarea  cols="65" rows="30" id="code" name="code" placeholder="//Write your code here"></textarea>
+      </div>
+
+      <div style="float: right;">
+        <h4>Compile With Input :
+          <input type="radio" name="inputRadio" id="inputRadio" value="true"/>Yes
+          <input type="radio" name="inputRadio" id="inputRadio" value="false"/>No
+        </h4>
+        <textarea cols="25" rows="10" id="input" id="code" name="input" placeholder="//Give Input if necessary" ></textarea>
+        <br />
+        <br>
+        <input  class="button1" type="submit" value="Run<>"  name="submit" />
+      </div>
+
+    </form>
+
+
+  </body>
+</html>

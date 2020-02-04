@@ -1,0 +1,22 @@
+{
+  "name": "localide",
+  "version": "1.0.0",
+  "description": "a simple ide that runs on browser built with node.js, express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "compiler",
+    "ide",
+    "node.js",
+    "express"
+  ],
+  "author": "Kishore Karanam and Sujan Chhetri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compile-run": "^2.3.2",
+    "express": "^4.17.1"
+  }
+}
