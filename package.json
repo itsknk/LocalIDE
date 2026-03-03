@@ -15,8 +15,8 @@
   "author": "Kishore Karanam and Sujan Chhetri",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^1.20.4",
     "compile-run": "^2.3.2",
-    "express": "^4.19.2"
+    "express": "^4.22.1"
   }
 }
